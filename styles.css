@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'Averia Serif Libre';
+    src: url(./fonts/AveriaSerifLibre-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url(./fonts/GeistMono-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+
+img {
+    display:block;
+    margin:auto;
+    height: 250px;
+    width: auto;
+}
+
+h1, h2 {
+    font-family: 'Averia Serif Libre';
+    background-color: #8E977D;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+body {
+    background-color: #DBCEA5;
+}
+
+p,
+ol,
+ul {
+    font-family: 'Geist Mono';
+    background-color: #ECE7D1;
+    list-style-position: inside;
+    border-color: #8E977D;
+    border-style: dotted;
+    margin: 10px;
+    padding: 20px;
+}
